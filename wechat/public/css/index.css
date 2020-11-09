@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+#login{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px gray;
+}
+.sel{
+    border-width: 1px;
+    border-style: solid;
+    border-color:blue;
+}
+.login_name{
+    width: 250px;
+    height: 30px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+}
+.login_img{
+    width: 250px;
+    height: 80px;
+    border: 1px solid gainsboro;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.login_img img{
+    width: 40px;
+    height: 37px;
+    cursor: pointer;
+}
+#home{
+    width: 620px;
+    height: 550px;
+    margin: auto;
+    background-color: gainsboro;
+    display: flex;
+    transition: 2s;
+}
+.home-left{
+    width: 220px;
+    height: 550px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+}
+.home-left-top{
+    width: 220px;
+    height: 50px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.userimg{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.home-left-cen{
+    width: 220px;
+    height: 50px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    border-bottom: 1px solid gainsboro;
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+}
+.home-left-con{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.home-left-bottom{
+    width: 220px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-left: 20px;
+    color: #fff;
+    align-content: center;
+    overflow: auto;
+}
+.home-right{
+    width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.home-right-tip{
+    width: 380px;
+    height: 50px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 18px;
+    align-items: center;
+}
+.home-chat{
+    width: 400px;
+    height: 380px;
+    box-sizing: border-box;
+    padding: 5px 10px 0;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+.addtips{
+    width: 100%;
+    height: 25px;
+    color: green;
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.leavetips{
+    width: 100%;
+    height: 25px;
+    color: bisque;
+    line-height: 25px;
+}
+.mymessage{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.mymessage img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+.mymessage span:nth-child(2){
+    margin-left: 10px;
+    align-self: start;
+    color: white;
+    height: 40px;
+    font-size: 12px;
+}
+.mymessage span:nth-child(1){
+    font-size: 14px;
+    height: 40px;
+    color: black;
+    line-height: 40px;
+    white-space: pre-wrap;
+    background-color: greenyellow;
+    padding: 3px;
+}
+.othermessage{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.othermessage img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.home-chat-input{
+    width: 400px;
+    height: 120px;
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}

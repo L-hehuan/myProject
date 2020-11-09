@@ -1,0 +1,580 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+		}, {
+			"path": "pages/goods/goods",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+		}, {
+			"path": "pages/card/card",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style":{
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+		}, {
+			"path": "pages/zhuce/zhuce",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+		}, {
+			"path": "pages/bookdata/bookdata",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+		}, {
+			"path": "pages/bookdata/bookdata-card",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+		}, {
+			"path": "pages/bookdata/bookdata-goods",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+		}, {
+			"path": "pages/bookdata/bookdata-search",
+			"style":{
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+		}, {
+			"path": "pages/bookdata/bookread",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+		}, {
+			"path": "pages/index/wtcontent",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+		}
+
+		, {
+			"path": "pages/index/search-result",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+		}, {
+			"path": "pages/card/talk",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+		}, {
+			"path": "pages/my/uploadbook",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+		}, {
+			"path": "pages/my/mymessage",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+		}, {
+			"path": "pages/my/userchange",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+		}, {
+			"path": "pages/my/userim",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+		}, {
+			"path": "pages/my/mytalk",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+		}, {
+			"path": "pages/my/myreturn",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+		}, {
+			"path": "colorui/components/uni-load-more",
+			"style": {}
+		}
+	    ,{
+            "path" : "components/components",
+            "style" : {}
+        }
+        ,{
+            "path" : "components/uni-load-more/uni-load-more",
+            "style" : {}
+        }
+        ,{
+            "path" : "components/uni-load-more/test",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/bookdata/bookcagetory",
+            "style" : {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+        }
+       
+        ,{
+            "path" : "pages/my/imname",
+            "style" : {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+        }
+        ,{
+            "path" : "pages/my/impas",
+            "style" : {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+        }
+        ,{
+            "path" : "pages/my/rmphone",
+            "style" : {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+        }
+        ,{
+            "path" : "pages/admin/admin",
+            "style" : {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+        }
+        ,{
+            "path" : "pages/login/admin-login",
+            "style" : {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+        }
+        ,{
+            "path" : "pages/admin/user_manage",
+            "style" : {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+        }
+        ,{
+            "path" : "pages/admin/book_manage",
+            "style" : {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+        }
+        ,{
+            "path" : "pages/admin/place_manage",
+            "style" : {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+        }
+        ,{
+            "path" : "pages/admin/liuyan_manage",
+            "style" : {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+        }
+        ,{
+            "path" : "pages/admin/gongao_manage",
+            "style" : {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+        }
+        ,{
+            "path" : "pages/admin/book_update",
+            "style" : {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+        }
+        ,{
+            "path" : "pages/admin/admin_message",
+            "style" : {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+        }
+        ,{
+            "path" : "pages/admin/guanyuwomen",
+            "style" : {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+        }
+       
+        ,{
+            "path" : "pages/admin/admin-talk",
+            "style" : {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+        }
+        ,{
+            "path" : "pages/my/aboutus",
+            "style" : {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"pullToRefresh": {
+						"color": "red"
+					}
+				},
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"backgroundTextStyle":"dark"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "图书推荐系统",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus":{
+			"titleNView":false
+		}
+	},
+	"tabBar": {
+		"backgroundColor": "white",
+		"color": "#999999",
+		"navigationStyle": "custom",
+		"selectedColor": "#007AFF",
+		"list": [{
+			"text": "我的书架",
+			"pagePath": "pages/goods/goods",
+			"iconPath": "static/tab/book_copy.png",
+			"selectedIconPath": "static/tab/book.png"
+		}, {
+			"text": "首页",
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tab/LIBRARY_1_COPY.png",
+			"selectedIconPath": "static/tab/LIBRARY_1.png"
+		}, {
+			"text": "读书广场",
+			"pagePath": "pages/card/card",
+			"iconPath": "static/tab/public_copy.png",
+			"selectedIconPath": "static/tab/public.png"
+		}, {
+			"text": "个人中心",
+			"pagePath": "pages/my/my",
+			"iconPath": "static/tab/gerenbianse.png",
+			"selectedIconPath": "static/tab/geren.png"
+		}]
+	}
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <div id='login' style="display: flex;">
+        <div class="login_name">
+            <input type="text" placeholder="请输入用户名" style="border: 0px;outline: none;width: 250px;">
+        </div>
+        <div class="login_img">
+            <img class="sel" src="../image/img_1 (1).jpeg" alt="">
+            <img src="../image/img_1 (1).jpg" alt="">
+            <img src="../image/img_1 (2).jpeg" alt="">
+            <img src="../image/img_1 (2).jpg" alt="">
+            <img src="../image/img_1 (3).jpg" alt="">
+            <img src="../image/img_1 (4).jpeg" alt="">
+            <img src="../image/img_1 (4).jpg" alt="">
+            <img src="../image/img_1 (5).jpeg" alt="">
+            <img src="../image/img_1 (6).jpeg" alt="">
+            <img src="../image/img_1 (7).jpeg" alt="">
+            <img src="../image/img_1 (8).jpeg" alt="">
+            <img src="../image/img_1 (9).jpeg" alt="">
+        </div>
+        <button id='login_but'>点击登录</button>
+    </div>
+    <div id="home" style="display: none;">
+        <div class="home-left">
+            <div class="home-left-top">
+                <img class='userimg' src="" alt="">
+                <span class='username'>WU</span>
+            </div>
+            <div class="home-left-cen">
+                <span>用户列表</span>
+            </div>
+            <div class="home-left-bottom">
+                <!-- <div class="home-left-con">
+                    <img class='userimg' src="" alt="">
+                    <span class='username'>WU</span>
+                </div> -->
+            </div>
+        </div>
+        <div class="home-right">
+            <div class="home-right-tip">
+                <span>聊天室<span id='usercount'>(0)</span></span>
+            </div>
+            <div class="home-chat">
+                <!-- <div class="mymessage">
+                        <img class='myimg' src="" alt="">
+                        <span class='myname'>WU</span>
+                    </div>
+                    <div class="othermessage">
+                        <img class='otherimg' src="" alt="">
+                        <span class='othername'>WU</span></div>
+                    </div> -->
+            </div>
+            <div class="home-chat-input">
+
+                <div style="width: 400px;height: 38px;">
+                    <div class="input">
+                        <div class="chatemoj"></div>
+                        <div class="jietu"></div>
+                        <input type="file" id="fileselect" placeholder="">
+                        <button id='sendphoto'>发送图片</button>
+                    </div>
+                </div>
+                <div
+                    style="width: 400px;height: 80px;display: flex;justify-content: space-between;align-items: flex-end;">
+                    <textarea id="chat_text" cols="" rows="" style="width: 320px;height: 40px;resize: none;"></textarea>
+                    <button id="sendmessage" style="width: 80px;height: 40px;">发送</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
