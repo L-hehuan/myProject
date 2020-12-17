@@ -132,7 +132,7 @@ def code_phone_login():
         if len(code_res)!=0:
             isnew=code_res[0]
     #向阿里发起短信请求
-        client = AcsClient('LTAI4GDwZHYSscp2kmD8ywQD', '862r2ip3EQ04VngYRYykBj3XCB8Jor', 'cn-hangzhou')
+        client = AcsClient('', '', 'cn-hangzhou')
         reqs = CommonRequest()
         reqs.set_accept_format('json')
         reqs.set_domain('dysmsapi.aliyuncs.com')
